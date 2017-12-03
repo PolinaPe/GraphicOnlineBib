@@ -11,7 +11,7 @@ versionCode = "1"
 xmlns:gap="http://phonegap.com/ns/1.0">
   
 
-<name>Dynamische Graphic</name>
+<name>Dynamische Graphic Online</name>
     
 
 <description>Bespiel code</description>
@@ -22,6 +22,15 @@ xmlns:gap="http://phonegap.com/ns/1.0">
  
  <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+	<plugin name="cordova-plugin-whitelist" spec="1.1.0" />
+	<content src="index.html" />
+	<access origin="*" />
+	<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<allow-intent href="tel:*" />
+<allow-intent href="sms:*" />
+<allow-intent href="mailto:*" />
+<allow-intent href="geo:*" />
 	
 
 </widget>
